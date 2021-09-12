@@ -1,0 +1,10 @@
+server { 
+	listen 		80;
+  	server_name  _;
+	
+	location /tech { 
+		root 	/var/www/abdhesh;
+		index	index.html; # search file from /var/www/html/tech/custom_index.html 
+}
+}
+
